@@ -1,0 +1,133 @@
+body {
+    background-image: url("Gradient-Lab-002.gif");
+    background-color: rgba(255, 255, 255, .13);
+    background-blend-mode: overlay;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 2px white;
+}
+
+#main-container {
+    display: flex;          /*flex my beloved...*/
+    flex-direction: column;
+    justify-content: flex-start;/*vertical*/
+    align-items: center;     /*horizontal*/
+    width: 100%;
+    max-width: 500px;             
+    min-height: 100vh;
+}
+
+#fast-forward-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*horizontal this time cause row*/
+    gap: 3rem;
+}
+
+.fast-forward-button {
+    background-color: #595959;
+    color: white;
+    padding: .5rem 1rem;
+    min-width: 5rem;
+    min-height: 1rem;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+#graph-row {
+    display: flex;
+    width: 100%;
+    min-width: 0;
+}
+  
+#graph {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#wallet-row {
+    display: flex;
+    gap: 1rem;
+    font-size: xx-large;
+    border-radius: 30px;
+}
+
+#balance-amount {
+    color: green;
+    text-shadow: 0px 0px 1px white;
+}
+
+#news-event {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: black;
+    padding: 5px;
+    background-color: #b2c4a985;
+    font-size: large;
+}
+
+#info-container {
+    display: flex;
+    place-items: center center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.options-row {
+    display: flex;
+    font-size: x-large;
+    place-items: center center;
+    gap: 12px;
+}
+
+.stock-price {
+    color: darkgreen;
+    text-shadow: 0px 0px 2px white;
+}
+
+.stock-amount-input {
+    padding: 6px;
+    font-size: large;
+    max-width: 30px;
+}
+
+.owned-info{
+    display: flex;
+    color: white;
+    font-size: x-large;
+    text-shadow: 0 0 2px black;
+    justify-content: center;
+    gap: 6px;
+}
+
+#buy-sell-row {
+    display: flex;
+    gap: 10px;
+}
+
+.buy-sell-button {
+    flex: 1;
+    background-color: #595959;
+    color: white;
+    font-size: xx-large;
+    padding: 2rem 4rem;
+    border-radius: 30px;
+}
+
+#buy-button {
+    background-color: green;
+}
+
+#sell-button {
+    background-color: red;
+}
+
+/* * {
+    outline: 1px solid rgba(255, 0, 0, 0.35);
+  } */
