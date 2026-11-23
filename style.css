@@ -1,5 +1,5 @@
 body {
-    background-image: url("Gradient-Lab-002.gif");
+    background-image: url("Gradient-Lab-003.gif");
     background-color: rgba(255, 255, 255, .13);
     background-blend-mode: overlay;
     overflow: hidden;
@@ -59,10 +59,13 @@ body {
 
 #balance-amount {
     color: green;
-    text-shadow: 0px 0px 1px white;
+    text-shadow: 0px 0px 2px white;
 }
 
-#news-event {
+.news-event {
+    display:flex;
+    flex-direction: column;
+    place-items: center center;
     border-style: solid;
     border-width: 2px;
     border-radius: 4px;
@@ -76,7 +79,9 @@ body {
     display: flex;
     place-items: center center;
     flex-direction: column;
+    background-color: #FFFFFF35;
     gap: 5px;
+    border-radius: 30px;
 }
 
 .options-row {
